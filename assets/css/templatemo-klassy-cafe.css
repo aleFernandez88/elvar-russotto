@@ -299,11 +299,6 @@ header
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
 }
 
-.background-header .logo,
-.background-header .main-nav .nav li a {
-  color: #1e1e1e !important;
-}
-
 .background-header .main-nav .nav li:hover a {
   color: var(--color-base) !important;
 }
@@ -1355,12 +1350,12 @@ chefs
   transition: all .3s;
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: var(--color-texto-gris);
 }
 
 #chefs .chef-item .down-content span {
   font-size: 14px;
-  color: #2a2a2a;
+  color: var(--color-texto-gris);
 }
 
 
